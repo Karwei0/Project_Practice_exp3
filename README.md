@@ -1,5 +1,7 @@
-# 实验3 Notebook基础实践
-## 1 创建一个新的NoteBook
+# 1 实验内容
+用Juypter Notebook 完成基础实践
+# 2 实验记录
+## 2.1 创建一个新的NoteBook
 notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。
 
 在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件。
@@ -75,7 +77,7 @@ print('%d squared is %d' % (x, y))
     3 squared is 9
     
 
-## 2 简单的python程序例子
+## 2.2 简单的python程序例子
 ### 定义selection_sort函数执行选择排序功能
 
 
@@ -107,7 +109,7 @@ test()
     [1, 2, 3, 4, 5, 6, 7, 8, 9]
     
 
-## 3 数据分析的例子
+## 2.3 数据分析的例子
 ### 设置
 导入相关的工具库
 
@@ -514,7 +516,7 @@ fig.tight_layout()
     
 
 
-## 4 导出Notebooks
+## 2.4 导出Notebooks
 分享Notebooks通常来说一般存在两种形式：一种向本文一样以静态非交互式分享（html,markdown,pdf等）；另外一种通过Git版本工具或者Google Colab进行协同开发
 ### 分享之前的工作
 分享的Notebooks应包括代码执行的输出，要保证执行的结果符合预期，需完成以下几件事：
