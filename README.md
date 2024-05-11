@@ -37,7 +37,7 @@ import time
 time.sleep(3)
 ```
 
-![sleep](../pic/ing.png)
+![sleep](./pic/ing.png)
 
 #### cell模式
 有两种模式，<b>编辑模式（edit mode）和命名模式（command mode）</b>
