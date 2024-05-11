@@ -514,7 +514,7 @@ fig.tight_layout()
     
 
 
-## 4 到处Notebooks
+## 4 导出Notebooks
 分享Notebooks通常来说一般存在两种形式：一种向本文一样以静态非交互式分享（html,markdown,pdf等）；另外一种通过Git版本工具或者Google Colab进行协同开发
 ### 分享之前的工作
 分享的Notebooks应包括代码执行的输出，要保证执行的结果符合预期，需完成以下几件事：
