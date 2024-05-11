@@ -1,11 +1,17 @@
 # 实验3 Notebook基础实践
 ## 1 创建一个新的NoteBook
-notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。<br>
-在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件。<br>  
-![create](./pic/vscodenewNotebook.png)<br>
-同样，也可以在pycharm中创建。<br>
-在pycharm中点击File->new->Jupyter Notebook，然后输入文件名，创建对应的.ipynb文件。<br>
+notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。
+
+在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件。
+
+![create](./pic/vscodenewNotebook.png)
+
+同样，也可以在pycharm中创建。
+
+在pycharm中点击File->new->Jupyter Notebook，然后输入文件名，创建对应的.ipynb文件。
+
 ![create](./pic/pycharmnewNotebook.png)
+
 在Notebook中有两个关键元素  
 - cell
 - kernal  
@@ -110,6 +116,7 @@ test()
 %matplotlib inline
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 ```
 
 pandas用于数据处理，matplotlib用于绘图，seaborn使绘图更美观。第一行不是python命令，而被称为line magic。%表示作用与一行，%%表示作用于全文。此处%matplotlib inline 表示使用matlib画图，并将图片输出。
@@ -503,7 +510,7 @@ plot(x, y1, ax, 'Increase in mean Fortune 500 company profits from 1955 to 2005'
 
 
     
-![png](output_42_0.png)
+![png](./pic/output_42_0.png)
     
 
 
@@ -519,7 +526,7 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 
 
     
-![png](output_44_0.png)
+![png](./pic/output_44_0.png)
     
 
 
@@ -542,7 +549,7 @@ fig.tight_layout()
 
 
     
-![png](output_46_0.png)
+![png](./pic/output_46_0.png)
     
 
 
@@ -558,4 +565,4 @@ fig.tight_layout()
 
 ### 导出markdown文档
 在官方提供的的Notebook服务器页面中打开所要分享的Notebook，点击File->Download as，可以选择多种导出格式，其中包括markdown文档格式：  
-![download](../pic/download.png)
+![download](./pic/download.png)
