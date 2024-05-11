@@ -1,11 +1,11 @@
 # 实验3 Notebook基础实践
 ## 1 创建一个新的NoteBook
-notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。
-在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件  
-![create](../pic/vscodenewNotebook.png)
-同样，也可以在pycharm中创建。
-在pycharm中点击File->new->Jupyter Notebook，然后输入文件名，创建对应的.ipynb文件。
-![create](../pic/pycharmnewNotebook.png)
+notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。<br>
+在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件。<br>  
+![create](./pic/vscodenewNotebook.png)<br>
+同样，也可以在pycharm中创建。<br>
+在pycharm中点击File->new->Jupyter Notebook，然后输入文件名，创建对应的.ipynb文件。<br>
+![create](./pic/pycharmnewNotebook.png)
 在Notebook中有两个关键元素  
 - cell
 - kernal  
