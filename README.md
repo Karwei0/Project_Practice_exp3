@@ -1,5 +1,10 @@
 # 1 实验内容
-用Juypter Notebook 完成基础实践
+- 安装Jupyter Notebook和相关的Python环境，建议采用Anaconda的安装方式。
+- 按照教程完成实验过程，主要包括几个方面：
+  - 掌握Notebook工具的基本原理
+  - 学习Python基本语法，完成选择排序程序
+  - 完成Python数据分析的例子
+- 将上述完成的Jupyter Notebook在Github上进行共享。
 # 2 实验记录
 ## 2.1 创建一个新的NoteBook
 notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。
