@@ -31,7 +31,7 @@ print('Hello World!')
     Hello World!
     
 
-代码执行之后，cell左侧的标签从In [ ] 变成了 In [1]。In代表输入，[]中的数字代表kernel执行的顺序，而In [\*]则表示代码cell正在执行代码。以下例子显示了短暂的In [\*]过程。
+代码执行之后，cell左侧的标签从In [ _] 变成了 In [1]。In代表输入，[]中的数字代表kernel执行的顺序，而In [\_]则表示代码cell正在执行代码。以下例子显示了短暂的In [\_]过程。
 
 
 ```python
