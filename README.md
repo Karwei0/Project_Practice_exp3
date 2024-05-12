@@ -4,7 +4,7 @@
 ## 2.1 创建一个新的NoteBook
 notebook的创建可以用很多方式，一种是在command中创建、也可以在vscode中创建，vsocde的创建如下。
 
-在vscode中点击View->Command Palette，点击Create:New Jupyter Notebook，生成一个Untitled.ipynb文件。
+在vscode中点击search栏目，然后输入Juypter Notebook:..，生成一个Untitled.ipynb文件。
 
 ![create](./pic/vscodenewNotebook.png)
 
